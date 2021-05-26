@@ -10,5 +10,5 @@ function add() {
 }
 
 
-//main
+//main section
 addBtn.addEventListener('click', add);
