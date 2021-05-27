@@ -5,7 +5,6 @@
 */
 
 //global variables
-
 const defaultResult = 0;
 let currentResult = defaultResult;
 let logEntries = [];
@@ -64,7 +63,7 @@ function divide() {
     writeToLog('DIVIDE', initialResult, enteredNumber, currentResult);
 }
 
-//main
+//main body of script
 
 addBtn.addEventListener('click', add);
 subtractBtn.addEventListener('click', subtract);
