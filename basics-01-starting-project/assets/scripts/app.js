@@ -28,7 +28,6 @@ function writeToLog(identifier, prevResult, number, newResult) {
     }
     logEntries.push(logEntry);
     console.log(logEntries); //outputs to developer console
-
 }
 
 function add() {
